@@ -31,6 +31,8 @@ grammar_cjkRuby: true
 
     alter table flowtasktack comment '案件附属表(flowtasktack)';
 
+> 针对排查和调离，如果只有排查则只传入排查:1 不用传输调离
+> 比如：ninvers：1
 
 添加协作人员字段：cooperation varchar(255)
 后台有判断如果值不为空则处理否则放弃
