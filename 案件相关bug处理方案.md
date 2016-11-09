@@ -5,8 +5,7 @@ grammar_cjkRuby: true
 ---
 
 > flowtasktack 表结构: 
-
-
+> 
     drop table if exists flowtasktack;
 
     /*==============================================================*/
@@ -31,4 +30,7 @@ grammar_cjkRuby: true
     ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
     alter table flowtasktack comment '案件附属表(flowtasktack)';
+
+
+添加协作人员字段：cooperation varchar(255)
 
