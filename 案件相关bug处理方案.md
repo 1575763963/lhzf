@@ -15,7 +15,7 @@ grammar_cjkRuby: true
     (
        id                   char(32) not null comment '附属ID',
        fid                  char(32) not null comment '案件ID',
-       csarea               int comment '乱搭建/面积',
+       csarea               numeric(12,2) comment '乱搭建/面积',
        bgbottle             int comment '黑煤气/瓶',
        ninvers              int comment '报刊亭/排查',
        nremoved             int comment '报刊亭/调离',
@@ -30,6 +30,7 @@ grammar_cjkRuby: true
     ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
     alter table flowtasktack comment '案件附属表(flowtasktack)';
+
 
 > 针对排查和调离，如果只有排查则只传入排查:1 不用传输调离
 > 比如：ninvers：1
