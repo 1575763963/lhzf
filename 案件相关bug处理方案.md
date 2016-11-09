@@ -33,4 +33,5 @@ grammar_cjkRuby: true
 
 
 添加协作人员字段：cooperation varchar(255)
+后台有判断如果值不为空则处理否则放弃
 
