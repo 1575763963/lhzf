@@ -38,10 +38,11 @@ grammar_cjkRuby: true
 
 
 >获取协作人员列表：
+
 **请求参数**
 
- - apptoken token
- - id 案件id
+ 1. apptoken token
+ 2. id 案件id
 
     URL: http://120.25.198.67:8080/zhcs/appLawBizMngController/getCTree.do
     
