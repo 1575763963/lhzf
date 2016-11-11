@@ -46,9 +46,6 @@ grammar_cjkRuby: true
 | id       | Stirng | 案件id |
 | apptoken | String | token  |
 
- 1. apptoken token
- 2. id 案件id
-
     URL: http://120.25.198.67:8080/zhcs/appLawBizMngController/getCTree.do
     
       post参数：
