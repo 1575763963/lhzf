@@ -48,7 +48,7 @@ grammar_cjkRuby: true
 
     URL: http://120.25.198.67:8080/zhcs/appLawBizMngController/getCTree.do
     
-      post参数：
+    post参数：
     {
     "apptoken": "be4049e46c4e43aeacb43dc9c165c83d",
     "id": "7a514ead8c2c4aad97aff50f53aff88e"
