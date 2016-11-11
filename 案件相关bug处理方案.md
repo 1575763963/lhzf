@@ -41,6 +41,11 @@ grammar_cjkRuby: true
 
 **请求参数**
 
+| 参数 | 类型 | 注释  |
+| -------- | ------ | ------ |
+| id       | Stirng | 案件id |
+| apptoken | String | token  |
+
  1. apptoken token
  2. id 案件id
 
