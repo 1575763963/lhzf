@@ -36,13 +36,19 @@ grammar_cjkRuby: true
 > 针对排查和调离，如果只有排查则只传入排查:1 不用传输调离
 > 比如：ninvers：1
 
-	获取协作人员列表：
+
+>获取协作人员列表：
+**请求参数**
+
+ - apptoken token
+ - id 案件id
+
     URL: http://120.25.198.67:8080/zhcs/appLawBizMngController/getCTree.do
     
       post参数：
     {
     "apptoken": "be4049e46c4e43aeacb43dc9c165c83d",
-        "id": "7a514ead8c2c4aad97aff50f53aff88e"
+    "id": "7a514ead8c2c4aad97aff50f53aff88e"
     }
 
     返回数据：
