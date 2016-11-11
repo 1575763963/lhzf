@@ -39,6 +39,24 @@ grammar_cjkRuby: true
 	获取协作人员列表：
     URL: http://120.25.198.67:8080/zhcs/appLawBizMngController/getCTree.do
     
+      post参数：
+    {
+    "apptoken": "be4049e46c4e43aeacb43dc9c165c83d",
+        "id": "7a514ead8c2c4aad97aff50f53aff88e"
+    }
+
+    返回数据：
+    {
+    "pd": [
+        {
+            "id": "5b2eb002013848768f7b11515a46ea09", 
+            "text": "佘玲", 
+            "pid": "a9eb6168e14c4aa69070b16fcb97598c", 
+            "role_mark": "ljzfy"
+        }
+    ], 
+    "result": "01"
+}
 
  - 添加协作人员字段：cooperation varchar(255)
  -  后台有判断如果值不为空则处理否则放弃
