@@ -6,9 +6,7 @@ grammar_cjkRuby: true
 
 > flowtasktack 表结构: 
 
-
     drop table if exists flowtasktack;
-
     /*==============================================================*/
     /* Table: flowtasktack                                          */
     /*==============================================================*/
@@ -22,6 +20,8 @@ grammar_cjkRuby: true
        nremoved             int comment '报刊亭/调离',
        isinvers             int comment '非法办学/排查',
        isremoved            int comment '非法办学/调离',
+       lon                  varchar(20) default NULL comment '经度',
+       lat                  varchar(20) default NULL comment '维度',
        crtid                char(32) comment '创建人ID',
        crttm                datetime not null comment '创建时间',
        updid                char(32) comment '修改人ID',
@@ -31,6 +31,7 @@ grammar_cjkRuby: true
     ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
     alter table flowtasktack comment '案件附属表(flowtasktack)';
+
 
 
 > 针对排查和调离，如果只有排查则只传入排查:1 不用传输调离
