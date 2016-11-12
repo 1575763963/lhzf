@@ -32,7 +32,16 @@ grammar_cjkRuby: true
 
     alter table flowtasktack comment '案件附属表(flowtasktack)';
 
+#### 需要传入字段：
 
+ 1. csarea
+ 2. bgbottle
+ 3. ninvers
+ 4. nremoved
+ 5. isinvers
+ 6. isremoved
+ 7. lon
+ 8. lat
 
 > 针对排查和调离，如果只有排查则只传入排查:1 不用传输调离
 > 比如：ninvers：1
