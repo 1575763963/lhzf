@@ -1,5 +1,7 @@
 # lhzf
 龙华执法队
 
-最新更新时间为：2016年11月9日14:54:33
-添加bug文档
+![enter description here][1]
+
+
+  [1]: ./images/96.png "96.png"
