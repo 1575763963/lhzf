@@ -4,4 +4,4 @@
 ![enter description here][1]
 
 
-  [1]: ./images/96.png "96.png"
+  [1]: http://xxx.freeimage.us/image.php?id=92BA_58392EF8
